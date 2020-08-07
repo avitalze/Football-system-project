@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+
+    <Properties>
+        <Property name="filename">logs/server.log</Property>
+        <Property name="errorfilename">logs/error.log</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss} %logger - %msg%n"/>
+        </Console>
+        <RollingFile name="File" fileName="${filename}" filePattern="${filename}-%d{yyyy.MM.dd_HH.mm.ss}-%i.log" >
+            <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss} %logger - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="1 MB"/>
+            <ThresholdFilter level="INFO"/>
+        </RollingFile>
+        <RollingFile name="eFile" fileName="${errorfilename}" filePattern="${errorfilename}-%d{yyyy.MM.dd_HH.mm.ss}-%i.log" >
+            <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss} %logger - %M - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="1 MB"/>
+            <ThresholdFilter level="ERROR"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="DEBUG" additivity="false">
+            <AppenderRef ref = "Console" />
+            <AppenderRef ref="eFile" />
+            <AppenderRef ref="File" />
+        </Root>
+    </Loggers>
+</Configuration>

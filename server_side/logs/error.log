@@ -1,0 +1,110 @@
+06.05.2020 16:25:16 ERROR LoginMain - something
+06.05.2020 17:13:10 ERROR LoginMain main - something
+06.05.2020 17:14:42 ERROR LoginMain main - something
+06.05.2020 17:14:42 ERROR MainSystem checkValidDetails - name not valid
+06.05.2020 17:39:01 ERROR LoginMain - main - something
+06.05.2020 17:55:08 ERROR LoginMain - main - something
+06.05.2020 21:51:40 ERROR MainSystem - checkValidDetails - user name not valid
+06.05.2020 21:52:22 ERROR MainSystem - checkValidDetails - user name not valid
+08.05.2020 16:57:20 ERROR LoginMain - main - something
+08.05.2020 16:57:42 ERROR LoginMain - main - something
+08.05.2020 16:57:55 ERROR LoginMain - main - something
+08.05.2020 17:01:17 ERROR LoginMain - main - something
+08.05.2020 17:01:38 ERROR LoginMain - main - something
+08.05.2020 17:03:20 ERROR LoginMain - main - something
+08.05.2020 17:08:28 ERROR LoginMain - main - something
+08.05.2020 18:56:53 ERROR LoginMain - main - something
+08.05.2020 18:57:38 ERROR LoginMain - main - something
+08.05.2020 19:01:44 ERROR LoginMain - main - something
+08.05.2020 19:02:03 ERROR LoginMain - main - something
+11.05.2020 16:42:47 ERROR LoginMain - main - something
+11.05.2020 16:44:01 ERROR LoginMain - main - something
+11.05.2020 16:45:34 ERROR LoginMain - main - something
+11.05.2020 16:46:43 ERROR LoginMain - main - something
+11.05.2020 16:47:03 ERROR LoginMain - main - something
+11.05.2020 16:47:27 ERROR LoginMain - main - something
+11.05.2020 16:50:07 ERROR LoginMain - main - something
+11.05.2020 16:51:47 ERROR LoginMain - main - something
+11.05.2020 17:32:55 ERROR LoginMain - main - something
+11.05.2020 17:34:45 ERROR LoginMain - main - something
+11.05.2020 17:35:49 ERROR LoginMain - main - something
+11.05.2020 17:39:45 ERROR LoginMain - main - something
+11.05.2020 18:21:09 ERROR Event - <init> - invalid event creation
+11.05.2020 18:22:00 ERROR Event - <init> - invalid event creation
+11.05.2020 18:23:30 ERROR Event - <init> - invalid event creation
+11.05.2020 18:29:07 ERROR Event - <init> - invalid event creation
+11.05.2020 18:29:45 ERROR Event - <init> - invalid event creation
+11.05.2020 18:30:00 ERROR Event - <init> - invalid event creation
+11.05.2020 18:33:47 ERROR Event - <init> - invalid event creation
+11.05.2020 18:35:06 ERROR LoginMain - main - something
+11.05.2020 18:35:40 ERROR LoginMain - main - something
+11.05.2020 18:35:51 ERROR LoginMain - main - something
+11.05.2020 18:37:00 ERROR LoginMain - main - something
+11.05.2020 18:37:36 ERROR LoginMain - main - something
+11.05.2020 18:38:51 ERROR LoginMain - main - something
+11.05.2020 18:40:20 ERROR LoginMain - main - something
+11.05.2020 18:41:22 ERROR LoginMain - main - something
+11.05.2020 18:43:05 ERROR LoginMain - main - something
+11.05.2020 18:43:48 ERROR Event - <init> - invalid event creation
+11.05.2020 23:08:42 ERROR Event - <init> - invalid event creation
+13.05.2020 09:33:38 ERROR Event - <init> - This player isn't in one of the participating teams
+15.05.2020 22:03:03 ERROR Event - <init> - invalid event creation
+22.05.2020 13:33:05 ERROR Rfa - answerRequest - team not in request list
+22.05.2020 17:12:20 ERROR Rfa - answerRequest - team not in request list
+23.05.2020 20:00:15 ERROR Event - <init> - invalid event creation
+23.05.2020 20:00:34 ERROR Event - <init> - invalid event creation
+27.05.2020 12:18:18 ERROR League - <init> - There is already league with the same name
+27.05.2020 13:44:22 ERROR Event - <init> - This player isn't in one of the participating teams
+27.05.2020 17:32:11 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:36:47 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:37:00 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:45:56 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:47:51 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:47:53 ERROR MainSystem - logOut - fan is not logged in to system 
+27.05.2020 17:48:11 ERROR MainSystem - logOut - fan is not logged in to system 
+27.05.2020 17:50:15 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:51:20 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:52:14 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:53:35 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:54:29 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:56:25 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 17:57:59 ERROR MainSystem - logIn - details not correct, no fan in system
+27.05.2020 18:59:01 ERROR MainSystem - logOut - fan is not logged in to system 
+27.05.2020 19:01:32 ERROR Event - <init> - invalid event creation
+27.05.2020 19:01:48 ERROR Event - <init> - invalid event creation
+27.05.2020 19:01:59 ERROR Event - <init> - invalid event creation
+27.05.2020 19:02:11 ERROR Event - <init> - invalid event creation
+28.05.2020 09:57:32 ERROR DaoApprovedTeamReq - get - key noy found in table
+28.05.2020 10:05:19 ERROR DaoApprovedTeamReq - get - key noy found in table
+28.05.2020 10:07:07 ERROR DaoApprovedTeamReq - get - key not found in table
+28.05.2020 11:04:03 ERROR DBHandler - conectToDB - connection in now null
+28.05.2020 11:04:24 ERROR DBHandler - conectToDB - connection in now null
+28.05.2020 11:15:02 ERROR DBHandler - conectToDB - connection in now null
+28.05.2020 11:15:23 ERROR DBHandler - conectToDB - connection in now null
+28.05.2020 11:15:44 ERROR DBHandler - conectToDB - connection in now null
+28.05.2020 15:40:36 ERROR Team - becomeActive -  number of players are less than 11
+28.05.2020 15:48:51 ERROR Team - becomeActive -  number of players are less than 11
+28.05.2020 15:59:12 ERROR Team - becomeActive -  number of players are less than 11
+28.05.2020 16:03:19 ERROR Team - becomeActive - one of the players team is not null
+28.05.2020 18:21:51 MainSystem - logIn - details not correct, no fan in system
+28.05.2020 18:21:59 MainSystem - logIn - details not correct, no fan in system
+29.05.2020 17:00:22 MainSystem - logIn - details not correct, no fan in system
+29.05.2020 17:29:17 MainSystem - logIn - details not correct, no fan in system
+29.05.2020 20:10:22 DBHandler - conectToDB - connection in now null
+29.05.2020 20:11:11 DBHandler - conectToDB - connection in now null
+29.05.2020 20:11:33 DBHandler - conectToDB - connection in now null
+29.05.2020 23:49:06 MainSystem - logIn - details not correct, no fan in system
+30.05.2020 01:16:48 MainSystem - logIn - details not correct, no fan in system
+30.05.2020 01:16:52 MainSystem - logIn - details not correct, no fan in system
+30.05.2020 01:16:56 MainSystem - logIn - details not correct, no fan in system
+30.05.2020 01:17:06 MainSystem - logIn - details not correct, no fan in system
+30.05.2020 01:17:10 MainSystem - logIn - details not correct, no fan in system
+30.05.2020 09:37:29 DBHandler - conectToDB - connection in now null
+30.05.2020 09:37:50 DBHandler - conectToDB - connection in now null
+30.05.2020 21:08:40 DBHandler - conectToDB - connection in now null
+30.05.2020 21:09:36 DBHandler - conectToDB - connection in now null
+30.05.2020 23:31:27 Referee - createReport - You do not have a permission to edit events right now
+31.05.2020 01:47:06 Referee - createReport - You do not have a permission to edit events right now
+31.05.2020 01:47:18 Referee - createReport - You do not have a permission to edit events right now
+31.05.2020 08:21:45 Referee - createReport - You do not have a permission to edit events right now
+31.05.2020 08:43:15 Referee - createReport - You can not create report until the match is over
