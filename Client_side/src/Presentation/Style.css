@@ -1,0 +1,51 @@
+.root{
+    -fx-background-color: #201222;
+    -fx-font-family: "System Bold";
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.button{
+    -fx-background-color: #E45652;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+}
+.button:focused{
+    -fx-background-color: #E45652;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+}
+.button:hover {
+    -fx-background-color: #e47f7e;
+}
+
+.button:pressed {
+    -fx-background-color: #E45652;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-family: System;
+}
+
+.text-field{
+    -fx-border-color: white;
+    -fx-background-color: #E45652;
+}
+
+.password-field{
+    -fx-border-color: white;
+    -fx-background-color: #E45652;
+}
+
+.combo-box{
+    -fx-border-color: white;
+    -fx-background-color: #E45652;
+}
+
+.radio-button{
+    -fx-text-fill: white;
+}
+

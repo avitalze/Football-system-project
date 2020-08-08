@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.TeamManagementUIController">
+    <children>
+        <BorderPane layoutX="2.0" prefHeight="400.0" prefWidth="699.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+         <top>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="60.0" layoutY="7.0" mnemonicParsing="false" onAction="#changeToHomePage" text="home" />
+                  <Button layoutX="149.0" layoutY="164.0" mnemonicParsing="false" onAction="#changeToRequestScene" prefHeight="49.0" prefWidth="169.0" text="Create a new team" />
+                  <Button layoutX="383.0" layoutY="164.0" mnemonicParsing="false" onAction="#changeToActivateScene" prefHeight="48.0" prefWidth="166.0" text="Activate team" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="278.0" layoutY="15.0" text="Team Owner">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="6.0" layoutY="7.0" mnemonicParsing="false" onAction="#changeToMyRolesScene" prefHeight="25.0" prefWidth="46.0" text="back" />
+                    <Label layoutX="675.0" layoutY="2.0" onMouseClicked="#closeHandling" prefHeight="27.0" prefWidth="20.0" text="X" textAlignment="CENTER">
+                        <font>
+                            <Font size="24.0" />
+                        </font>
+                    </Label>
+               </children>
+            </AnchorPane>
+         </top>
+        </BorderPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.SignUpController">
+      <Pane prefHeight="401.0" prefWidth="120.0" >
+         <children>
+            <Button fx:id="btn_Back" layoutX="14.0" layoutY="352.0" mnemonicParsing="false" onMouseClicked="#backHandling" prefHeight="35.0" prefWidth="83.0" text="Back" />
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="102.0" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextField fx:id="txt_name" layoutX="153.0" layoutY="55.0" />
+      <TextField fx:id="txt_email" layoutX="153.0" layoutY="110.0" />
+      <TextField fx:id="txt_userName" layoutX="428.0" layoutY="55.0" />
+      <RadioButton fx:id="rd_rfa" layoutX="448.0" layoutY="273.0" mnemonicParsing="false" text="RFA">
+      <toggleGroup>
+         <ToggleGroup fx:id="characters" />
+      </toggleGroup>
+   </RadioButton>
+      <RadioButton fx:id="rd_fan" layoutX="448.0" layoutY="247.0" mnemonicParsing="false" text="Fan" toggleGroup="$characters" />
+      <RadioButton fx:id="rd_coach" layoutX="448.0" layoutY="298.0" mnemonicParsing="false" text="Coach" toggleGroup="$characters" />
+      <RadioButton fx:id="rd_player" layoutX="448.0" layoutY="323.0" mnemonicParsing="false" text="Player" toggleGroup="$characters" />
+      <RadioButton fx:id="rd_teamOwner" layoutX="449.0" layoutY="348.0" mnemonicParsing="false" text="Team owner" toggleGroup="$characters" />
+      <Label layoutX="153.0" layoutY="31.0" text="Name:" />
+      <Label layoutX="428.0" layoutY="31.0" text="User name:" />
+      <Label layoutX="429.0" layoutY="97.0" text="Password:" />
+      <PasswordField fx:id="txt_password" layoutX="427.0" layoutY="113.0" />
+      <Label layoutX="153.0" layoutY="96.0" text="Email:" />
+      <DatePicker fx:id="dp_birthday" layoutX="153.0" layoutY="260.0" />
+      <Label layoutX="153.0" layoutY="238.0" text="Birthday:" />
+      <Label layoutX="427.0" layoutY="154.0" text="Password confirmation:" />
+      <Button fx:id="btn_Launch" layoutX="609.0" layoutY="347.0" mnemonicParsing="false" onMouseClicked="#signUpHandling" prefHeight="35.0" prefWidth="83.0" text="Launch" />
+      <PasswordField fx:id="txt_passwordConfi" layoutX="428.0" layoutY="175.0" />
+      <Label layoutX="445.0" layoutY="222.0" text="Choose your role:" />
+      <TextField fx:id="txt_phoneNumber" layoutX="153.0" layoutY="175.0" promptText="0523456789" />
+      <Label layoutX="153.0" layoutY="154.0" text="Phone number:" />
+      <Label fx:id="lbl_nameError" layoutX="153.0" layoutY="82.0" prefHeight="17.0" prefWidth="251.0" textFill="RED" />
+      <Label fx:id="lbl_phoneError" layoutX="147.0" layoutY="201.0" prefHeight="35.0" prefWidth="235.0" textFill="RED" />
+      <Label fx:id="lbl_emailError" layoutX="153.0" layoutY="137.0" prefHeight="17.0" prefWidth="251.0" textFill="RED" />
+      <Label fx:id="lbl_userNameError" layoutX="420.0" layoutY="82.0" prefHeight="17.0" prefWidth="269.0" textFill="RED" />
+      <Label fx:id="lbl_PasswordError" layoutX="420.0" layoutY="141.0" prefHeight="17.0" prefWidth="269.0" textFill="RED" />
+      <Label fx:id="lbl_PasswordError1" layoutX="420.0" layoutY="201.0" prefHeight="17.0" prefWidth="225.0" textFill="RED" />
+      <Label fx:id="lbl_BirthdayError" layoutX="147.0" layoutY="289.0" prefHeight="17.0" prefWidth="235.0" textFill="RED" />
+      <Label fx:id="lbl_RoleError" layoutX="542.0" layoutY="222.0" prefHeight="17.0" prefWidth="134.0" textFill="RED" />
+      <Label fx:id="btn_close" layoutX="675.0" onMouseClicked="#closeEvent" prefHeight="35.0" prefWidth="21.0" text="X">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   <Label layoutX="153.0" layoutY="306.0" text="Get notifications by email:" />
+   <RadioButton fx:id="rb_noEmail" layoutX="176.0" layoutY="331.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="174.0" text="No">
+      <toggleGroup>
+         <ToggleGroup fx:id="emailOrNot" />
+      </toggleGroup>
+   </RadioButton>
+   <RadioButton fx:id="rb_yesEmail" layoutX="176.0" layoutY="356.0" mnemonicParsing="false" text="Yes" toggleGroup="$emailOrNot" />
+   <Label fx:id="lbl_messagesError" layoutX="291.0" layoutY="305.0" prefHeight="17.0" prefWidth="138.0" textFill="RED" />
+
+</AnchorPane>
